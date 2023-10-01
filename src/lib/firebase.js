@@ -2,12 +2,13 @@ import firebase from "firebase";
 import "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyATOkzZ8M03JDlexVfextL5fkPTW7jhL6Q",
-  authDomain: "yt-classroom-clone.firebaseapp.com",
-  projectId: "yt-classroom-clone",
-  storageBucket: "yt-classroom-clone.appspot.com",
-  messagingSenderId: "170227524980",
-  appId: "1:170227524980:web:78806688690ce40a7d3821",
+  apiKey: "AIzaSyDR_5UMwxKlXa5kmLr6MxSv3JoCxQhM1kE",
+  authDomain: "classroom-8b444.firebaseapp.com",
+  projectId: "classroom-8b444",
+  storageBucket: "classroom-8b444.appspot.com",
+  messagingSenderId: "858368239049",
+  appId: "1:858368239049:web:7e6978705abab14616b418",
+  measurementId: "G-83CZJP47G0"
 };
 
 firebase.initializeApp(firebaseConfig);
@@ -19,3 +20,5 @@ const storage = firebase.storage();
 
 export { auth, provider, storage };
 export default db;
+
+ 
